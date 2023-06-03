@@ -1,0 +1,125 @@
+openapi: 3.0.0
+info:
+  title: "RP Flask REST API"
+  description: "An API about workshops and orders"
+  version: "1.0.0"
+
+servers:
+  - url: "/api"
+
+components:
+  schemas:
+    Writers:
+      type: "object"
+      required:
+        - id
+      properties:
+        id:
+          type: "integer"
+        passport_number:
+          type: "integer"
+        surname:
+          type: "string"
+        name:
+          type: "string"
+        middle_name:
+          type: "string"
+        address:
+          type: "string"
+        phone:
+          type: "string"
+    Contracts:
+      type: "object"
+      required:
+        - id
+      properties:
+        id:
+          type: "integer"
+        writer:
+          $ref: "#/components/schemas/Writers"
+        contract_number:
+          type: "integer"
+        date_of_cons_contract:
+          type: "string"
+          format: "yyyy-mm-dd"
+        term_of_the_contract:
+          type: "integer"
+        validy_of_the_contract:
+          type: "boolean"
+        date_of_terminition_contract:
+          type: "string"
+          format: "yyyy-mm-dd"
+    Books:
+      type: "object"
+      required:
+        - id
+      properties:
+        id:
+          type: "integer"
+        cipher_of_the_book:
+          type: "integer"
+        name:
+          type: "string"
+        title:
+          type: "string"
+        circulation:
+          type: "integer"
+        release_date:
+          type: "string"
+          format: "yyyy-mm-dd"
+        cost_price:
+          type: "number"
+        sale_price:
+            type: "number"
+        fee:
+          type: "number"
+        writers:
+          type: "array"
+          items:
+            $ref: "#/components/schemas/Writers"
+    Customers:
+      type: "object"
+      required:
+        - id
+      properties:
+        id:
+          type: "integer"
+        customer_name:
+          type: "string"
+        address:
+          type: "string"
+        phone:
+          type: "string"
+        full_name_customer:
+          type: "string"
+    Orders:
+      type: "object"
+      required:
+        - id
+      properties:
+        id:
+          type: "integer"
+        customer:
+          $ref: "#/components/schemas/Customers"
+        order_number:
+          type: "integer"
+        date_of_receipt_order:
+          type: "string"
+          format: "yyyy-mm-dd"
+        order_completion_date:
+          type: "string"
+          format: "yyyy-mm-dd"
+        book:
+          $ref: "#/components/schemas/Books"
+        numbers_of_order:
+          type: "integer"
+  parameters:
+    id:
+      name: "id"
+      description: "Id of the product to get"
+      in: path
+      required: true
+      schema:
+        type: "integer"
+
+paths:
