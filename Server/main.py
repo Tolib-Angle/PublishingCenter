@@ -7,7 +7,7 @@ from sqlalchemy.orm import sessionmaker
 from Models import *
 from flask_swagger_ui import get_swaggerui_blueprint
 
-engine = db.create_engine('postgresql+psycopg2://postgres:12345@localhost/PublishingCenter')
+engine = db.create_engine('postgresql+psycopg2://postgres:')
 
 conn = engine.connect()
 

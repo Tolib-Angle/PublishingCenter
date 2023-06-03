@@ -10,4 +10,4 @@ BackUp database stored in file: [PublishingCenterDateBase](https://github.com/To
 
 If you have any additional questions, write to the author: [Tolib](https://github.com/Tolib-Angle)
 
-`Python engine = db.create_engine('postgresql+psycopg2://postgres:12345@localhost/PublishingCenter')`
+`Python engine = db.create_engine('postgresql+psycopg2://postgres:_path to date base_')` in file [main.py](https://github.com/Tolib-Angle/PublishingCenter_NHibernate/blob/main/Server/main.py) line 10
