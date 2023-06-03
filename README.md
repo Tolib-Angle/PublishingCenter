@@ -1,6 +1,6 @@
 # PublishingCenter_NHibernate
 ### Author: [Tolib](https://github.com/Tolib-Angle) Date: 03.06.2023
-Console applications for database administration (C#, NHibernate, PostrgreSQL)
+Console applications for database administration (Client: C#, NHibernate, PostrgreSQL. Server: Python)
 
 Necessary packages to run the program: FluentNHibernate, NHibernate, Npgsql, JSON
 
