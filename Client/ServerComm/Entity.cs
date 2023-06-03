@@ -1,4 +1,4 @@
-﻿namespace PublishingCenter_v2.NHibernate
+﻿namespace PublishingCenter.ServerComm
 {
     public interface Entity
     {

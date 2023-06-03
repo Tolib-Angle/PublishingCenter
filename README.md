@@ -1,12 +1,12 @@
-# PublishingCenter_NHibernate
+# PublishingCenter Client-Server
 ### Author: [Tolib](https://github.com/Tolib-Angle) Date: 03.06.2023
-Console applications for database administration (Client: C#, NHibernate, PostrgreSQL. Server: Python)
+Console applications for database administration (Client: C#. Server: Python DateBase: PostgreSQL)
 
-Necessary packages to run the program: FluentNHibernate, NHibernate, Npgsql, JSON
+Necessary packages to run the program: JSON
 
 The starting point of the programm: [Program.cs](https://github.com/Tolib-Angle/PublishingCenter_NHibernate/blob/main/Client/Program.cs)
 
-BackUp database stored in file: [PublishingCenterDateBase](https://github.com/Tolib-Angle/PublishingCenter_NHibernate/blob/main/DateBaseBackUp.txt) (! _The date in the database is fictional_ !)
+BackUp database stored in file: [PublishingCenter](https://github.com/Tolib-Angle/PublishingCenter_NHibernate/blob/main/PublishingCenter.txt) (! _The date in the database is fictional_ !)
 
 DateBase recoviry: `psql datebase_name < file_db_dump`
 

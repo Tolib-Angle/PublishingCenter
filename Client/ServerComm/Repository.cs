@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace PublishingCenter_v2.NHibernate
+namespace PublishingCenter.ServerComm
 {
     public class Repository
     {
@@ -14,13 +14,6 @@ namespace PublishingCenter_v2.NHibernate
         private readonly HttpClient Client = new HttpClient();
 
         private static Repository _instance = null;
-
-
-        private Repository()
-        {
-            //var handler = new WinHttpHandler();
-            //Client = new HttpClient(handler);
-        }
 
         public static Repository Instance
         {

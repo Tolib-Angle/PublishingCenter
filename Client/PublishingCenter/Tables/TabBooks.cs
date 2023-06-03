@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using PublishingCenter_v2.NHibernate;
-using PublishingCenter_v2.NHibernate.Data;
-using PublishingCenter_v2.PublishingCenter.Interface;
+using PublishingCenter.ServerComm;
+using PublishingCenter.PublishingCenter.Interface;
 using System.Linq;
 
-namespace PublishingCenter_v2.PublishingCenter.Tables
+namespace PublishingCenter.PublishingCenter.Tables
 {
     public class TabBooks
     {

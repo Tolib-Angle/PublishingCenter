@@ -1,7 +1,7 @@
-﻿using PublishingCenter_v2.PublishingCenter.Tables;
+﻿using PublishingCenter.PublishingCenter.Tables;
 using System;
 
-namespace PublishingCenter_v2.PublishingCenter.Menu
+namespace PublishingCenter.PublishingCenter.Menu
 {
     public class Menu
     {

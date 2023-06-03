@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using PublishingCenter_v2.NHibernate;
+using PublishingCenter.ServerComm;
 using System.Linq;
 
-namespace PublishingCenter_v2.PublishingCenter.Interface
+namespace PublishingCenter.PublishingCenter.Interface
 {
     public class TemplateInterface<T> where T : Entity
     {

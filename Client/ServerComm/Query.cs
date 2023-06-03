@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PublishingCenter_v2.NHibernate
+namespace PublishingCenter.ServerComm
 {
     public class Query
     {

@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using PublishingCenter_v2.NHibernate;
-using PublishingCenter_v2.PublishingCenter.Interface;
-using PublishingCenter_v2.NHibernate.Data;
+using PublishingCenter.ServerComm;
+using PublishingCenter.PublishingCenter.Interface;
 
-namespace PublishingCenter_v2.PublishingCenter.Tables
+namespace PublishingCenter.PublishingCenter.Tables
 {
     public class TabOrders
     {

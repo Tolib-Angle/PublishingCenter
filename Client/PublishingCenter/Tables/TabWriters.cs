@@ -1,11 +1,10 @@
-﻿using PublishingCenter_v2.PublishingCenter.Interface;
-using PublishingCenter_v2.NHibernate.Data;
-using PublishingCenter_v2.NHibernate;
+﻿using PublishingCenter.PublishingCenter.Interface;
+using PublishingCenter.ServerComm;
 using System.Collections.Generic;
 using System;
 using System.Linq;
 
-namespace PublishingCenter_v2.PublishingCenter.Tables
+namespace PublishingCenter.PublishingCenter.Tables
 {
     public class TabWriters
     {

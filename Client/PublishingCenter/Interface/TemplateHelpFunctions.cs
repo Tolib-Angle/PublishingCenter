@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PublishingCenter_v2.PublishingCenter.Interface
+namespace PublishingCenter.PublishingCenter.Interface
 {
     public class TemplateHelpFunctions
     {

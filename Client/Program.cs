@@ -1,7 +1,7 @@
-﻿using PublishingCenter_v2.PublishingCenter.Menu;
+﻿using PublishingCenter.PublishingCenter.Menu;
 using System;
 
-namespace PublishingCenter_v2
+namespace PublishingCenter
 {
     internal class Program
     {
